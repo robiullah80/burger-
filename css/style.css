@@ -1,0 +1,220 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Bebas Neue', cursive !important;
+	 font-size: 14px;
+	 line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6,{
+	font-family: 'Alfa Slab One', cursive !important;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: none;
+
+}
+
+/*header code start*/
+
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: url(../images/bannerbg.png) center top no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+	padding: 20px 0px;
+}
+.menu .info{
+	width: 100%;
+	text-align: right;
+}
+.menu .info p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #3d2514;
+	margin: 0px 18px 0px 0px;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #3d2514;
+	margin: 0px 0px 0px 30px;
+	transition: 1s; 
+
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+	color: #bf2222;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+	color: #bf2222;
+
+}
+.banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.banner h4{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 50px 0px 20px;
+}
+.banner h4 span{
+	width: ;
+	padding: 10px;
+	border: 2px dashed #3d2514;
+}
+.banner h1{
+	font-size: 110px;
+	font-weight: 700;
+	line-height: 120px;
+	text-shadow: 1px 4px 10px #ccc;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+}
+.banner h3{
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+	text-shadow: 1px 4px 10px #ccc;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/*populer code start*/
+.populer{
+	width: 100%;
+	padding: 80px 0px 45px;
+}
+.populer .card{
+	margin: 0px 0px 35px;
+	border: 1px solid #fff;
+	background: #fff;
+}
+.populer .card .card-img-overlay h5{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 10px 0px 0px;
+
+}
+.populer .card .card-img-overlay h3{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/* choose code start */
+.choose{
+	width: 100%;
+	padding: 70px 0px;
+}
+.choose .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+
+}
+.choose .title h4{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px 0px 50px;
+}
+.choose .title h4 span{
+	padding: 10px;
+	background: #ffc045;
+}
+.choose .title h2{
+	font-family: 'Alfa Slab One', cursive !important;
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 80px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #3d2514;
+
+}
+.choose .title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+.choose .inner-choose{
+	width: 100%;
+	padding: 30px 40px;
+	text-align: center;
+}
+.choose .inner-choose img{
+	width: 100%;
+	margin: 0px 0px 10px;
+}
+.choose .inner-choose h3{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #3d2514;
+
+}
+.choose .inner-choose p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 0px 0px 25px;
+} 
+.choose .inner-choose .btn-primary{
+	padding: 10px 35px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: #bf2222;
+	border: 1px solid #bf2222;
+	color: #fff;
+	letter-spacing: 2px;
+	border-radius: 0px;
+
+}
+.choose .inner-choose .btn-primary:hover{
+	background: #3d2514;
+	border: 1px solid #3d2514;
+	color: #fff;
+	transition: 1s;
+}
